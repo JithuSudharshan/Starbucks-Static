@@ -1,0 +1,382 @@
+@font-face {
+    font-family: star-bold;
+    src: url(/fonts/sodo-sans-9.ttf);
+}
+@font-face {
+    font-family: star-regular;
+    src: url(fonts/sodo-sans-8.ttf);
+}
+@font-face {
+    font-family: star-maxbold;
+    src: url(/fonts/sodo-sans-3.ttf);
+}
+@font-face {
+    font-family: star-light;
+    src: url(/fonts/sodo-sans-6.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'star-regular';
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+    border-bottom: 0.3px solid rgba(0, 0,0,0.2);
+    box-shadow: 0px 1px 2px rgba(0, 0,0,0.2);
+    height: 100px;
+}
+.marg{
+    margin-top: 30px;
+}
+.outer-most{
+    display: flex;
+    flex-direction: row;
+}
+.inner-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 14px;
+    font-family: 'star-bold';
+}
+.inner-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    align-items: center;
+    margin-left: 600.118px;
+    
+}
+.loco{
+    width: 23px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.pos{
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    margin-left: 80%;
+    margin-top: 24px;
+
+}   
+.without-logo{
+    display: flex;
+    flex-direction: row;
+
+}
+.space{
+    letter-spacing: 2px;
+    margin-bottom:24px;
+    color: #00000094;
+    font-family: 'star-light';
+    font-size: 14px;
+
+}
+li{
+    list-style-type: none;
+}
+.sign-in{
+    background-color: white;
+    padding: 7px 16px;
+    border-radius: 30px;
+    border-width: 0.1px;
+    border-style: solid ;
+    border-color: black;
+    display: inline-block;
+    text-align: center;
+    font-family: 'star-bold';
+    font-size: 14px;
+    margin-left: 80px;
+}
+.join-now{
+    background-color: black;
+    padding: 7px 16px;
+    border-radius: 30px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-family: 'star-bold';
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* BODY CSS CODE */
+
+.general{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+}
+.frame{
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+    display: flex;
+
+}
+
+.picture{
+    width: 720px;
+}
+.right{
+    width: 50%;
+    height: 625px;
+    display: flex;
+    background: #32462f;
+    justify-content: space-evenly;
+
+}
+.right-pad{
+    display: flex;
+    align-items: center;
+
+}
+.right-inner{
+    width: 396px;
+    text-align: center;
+}
+.tile-head{
+    color: white;
+    font-family: 'star-bold';
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.tile-info{
+    color: white;
+    font-family: 'star-light';
+    font-size: 24px;
+    margin-top: 20px;
+}
+.tile-button{
+    margin: 32px;
+    padding: 7px 16px;
+    border-radius: 30px;
+    border-width: 0.1px;
+    border-style: solid ;
+    border-color:white;
+    display: inline-block;
+    text-align: center;
+    font-family: 'star-bold';
+    font-size: 14px;
+    color: white;
+}
+.bgcolor{
+    background-color: #006242;
+}
+.general2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+}
+.frame2{
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+.left2{
+    width: 50%;
+    display: flex;
+
+}
+
+.picture2{
+    width: 720px;
+    height: 420px;
+}
+.right2{
+    width: 50%;
+    height: 420px;
+    display: flex;
+    background: #32462f;
+    justify-content: space-evenly;
+
+}
+.right-pad2{
+    display: flex;
+    align-items: center;
+
+}
+.right-inner2{
+    width: 396px;
+    text-align: center;
+}
+.tile-head2{
+    color: white;
+    font-family: 'star-bold';
+    font-size: 24px;
+    letter-spacing: 2px;
+
+}
+.tile-info2{
+    color: white;
+    font-family: 'star-light';
+    font-size: 19px;
+    margin-top: 24px;
+}
+.tile-button2{
+    margin: 32px;
+    padding: 7px 16px;
+    border-radius: 30px;
+    border-width: 0.1px;
+    border-style: solid ;
+    border-color:white;
+    display: inline-block;
+    text-align: center;
+    font-family: 'star-bold';
+    font-size: 14px;
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.box-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.box-child1{
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    
+}
+.box-child2{
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    width: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: space-evenly;
+}
+.box-child11{
+    display: flex;
+    width: 646.16px;
+}
+.box-child22{
+    display: flex;
+    width: 645px;
+    text-align: center;
+    flex-direction: column;
+}
+.ft-outer{
+    display: grid;
+    margin-top: 24px;
+
+}
+.ft-parent{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-content: end;
+    font-family: 'star-light';
+
+}.ft-child1{
+    display: flex;
+    width: 190px;
+    margin-left: 32px;
+}
+.ft-child2{
+    display: flex;
+    width: 190px;
+    margin-left: 32px;
+}
+.ft-child3{
+    display: flex;
+    width: 190px;
+    margin-left: 32px;
+}
+.ft-child4{
+    display: flex;
+    width: 190px;
+    margin-left: 32px;
+}
+.ft-child5{
+    display: flex;
+    width: 190px;
+    margin-left: 32px;
+}
+.logo-size{
+    width: 50px;
+}
+.ft-head{
+    font-family: 'star-regular';
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+.hr-parent{
+    display: flex;
+}
+.hr{
+    display: flex;
+}
+.second-footer-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.second-footer{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.second-footer2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.privacy{
+    margin: 15px;
+    margin-left: 35px;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #00000094;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.fa-brands{
+    padding: 20px;
+    scale: 2;
+}
+.xyz{
+    font-family: 'star-maxbold';
+    margin-right: 30px;
+    letter-spacing: 2px;
+
+}
+.find-a-store{
+    font-family: 'star-bold';
+    font-size: 14px;
+}
+
