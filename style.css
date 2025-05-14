@@ -1,6 +1,6 @@
 @font-face {
     font-family: star-bold;
-    src: url(/fonts/sodo-sans-9.ttf);
+    src: url(fonts/sodo-sans-9.ttf);
 }
 @font-face {
     font-family: star-regular;
@@ -8,11 +8,11 @@
 }
 @font-face {
     font-family: star-maxbold;
-    src: url(/fonts/sodo-sans-3.ttf);
+    src: url(fonts/sodo-sans-3.ttf);
 }
 @font-face {
     font-family: star-light;
-    src: url(/fonts/sodo-sans-6.ttf);
+    src: url(fonts/sodo-sans-6.ttf);
 }
 
 a{
